@@ -1,0 +1,86 @@
+body {
+    font-family: 'Russo One', sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex; 
+}
+
+/*  ---> Estilizando a class das imagens das logos das marcas <---    */
+.brands-imgs {
+    display: grid;
+    grid-template-columns: 29.0rem 29.0rem;
+    grid-template-rows: 29.0rem 29.0rem;
+   
+    margin-left: 7.0rem;
+    margin-top: 5.0rem;
+    
+  
+}
+.brands-imgs img {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+
+    cursor: pointer;
+}
+
+/*  ---> Estilizando a class das informações do site <---    */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5.0rem;
+    margin-left: 5.0rem;
+
+
+   
+}
+.info h1 {
+    margin: 0; 
+
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5.0rem;
+    line-height: 116px;
+
+    color: #16009C;
+}
+.info h2 {
+    margin: 0;
+
+    width: 23.0rem;
+    height: auto;
+
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.0rem;
+    text-align: center;
+    line-height: 40px;
+
+    margin-top: 50px;
+
+    color: #16009C;
+}
+.info hr{
+    margin: 0;
+
+    width: 25.0rem;
+    border: 1px solid #000000;
+}
+.info img {
+    width: 350px;
+    height: 350px;
+
+    margin-left: 15.0rem;
+
+    transform: rotate(10deg);
+}
