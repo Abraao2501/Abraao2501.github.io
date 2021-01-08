@@ -12,11 +12,13 @@ html {
 /*  ---> Estilizando a class das imagens das logos das marcas <---    */
 .brands-imgs {
     display: grid;
-    grid-template-columns: 29.0rem 29.0rem;
-    grid-template-rows: 29.0rem 29.0rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.4fr 0.4fr;
+    grid-column-gap: 20px;
+
    
     margin-left: 7.0rem;
-    margin-top: 5.0rem;
+    margin-top: 3.0rem;
     
   
 }
