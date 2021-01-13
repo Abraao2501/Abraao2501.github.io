@@ -50,8 +50,7 @@ img.item:hover {
     background: #332f2f;
 }
 ::-webkit-scrollbar-button {
-    background-color: #16009C;
-    width: 0.6vw;
+    display: none;
 }
 ::-webkit-scrollbar-button-arrow {
     background-color: #ffffff
@@ -59,7 +58,7 @@ img.item:hover {
 }
 ::-webkit-scrollbar-thumb {
     opacity: 0.1;
-    background: #15009c85;
+    background: #53535385;
     border-radius: 5px;
 }
 
