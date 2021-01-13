@@ -23,20 +23,21 @@
         font-size: 1.6rem;
     }
         .item {
-        min-width: 250px;
-        height: 90%;
+        min-width: 275px;
+        height: 85%;
     }
     
 }
-@media (max-width: 389px) {
+@media (max-width: 320px) {
     h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     p {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
-    .item {
-        min-width: 260px;
-        height: 90%;
+        .item {
+        min-width: 250px;
+        height: 80%;
     }
+    
 }
