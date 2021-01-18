@@ -1,0 +1,172 @@
+@media (max-width: 1248px) {
+  .promotion {
+    width: 35vw;
+    margin-left: 10%;
+  }
+  .shoe-img img {
+    width: 35vw;
+    min-width: 300px;
+  }
+}
+@media (max-width: 994px) {
+  .promotion {
+    width: 45vw;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 768px) {
+  aside {
+    display: flex;
+    align-items: center;
+    flex-direction: initial;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+
+    height: 13vh;
+    width: 100%;
+
+    background: #16009c;
+  }
+  .cart,
+  .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 35px 0 35px;
+
+    width: 7vw;
+    height: 10vh;
+
+    border-radius: 50%;
+    background: #ffffff;
+
+    cursor: pointer;
+  }
+  .back {
+    order: 1;
+  }
+  .cart {
+    order: 2;
+  }
+
+  .info-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .shoe-img img {
+    margin: 10vh 0 0 0;
+    width: 60vw;
+  }
+  .promotion {
+    width: 60vw;
+    margin: 0;
+  }
+  h1,
+  h2 {
+    font-size: 1.7rem;
+    line-height: 7vh;
+    margin: 0 0 7vh 0;
+  }
+  .promotion button {
+    border: none;
+    padding: none;
+    border-radius: 10em;
+
+    background: #16009c;
+    color: white;
+
+    width: 30vw;
+    height: 10vh;
+
+    margin-top: 4vh;
+
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+    cursor: pointer;
+  }
+}
+@media (max-width: 600px) {
+  .cart,
+  .back {
+    margin: 0 25px 0 25px;
+    width: 9.5vw;
+    height: 10vh;
+  }
+  .shoe-img img {
+    margin: 10vh 0 0 0;
+    width: 70vw;
+    min-width: 55vw;
+  }
+  .promotion {
+    width: 100vw;
+    margin: 0;
+  }
+}
+@media (max-width: 425px) {
+  .cart,
+  .back {
+    width: 13vw;
+  }
+  .shoe-img img {
+    margin: 10vh 0 0 0;
+    width: 90vw;
+    min-width: 55vw;
+  }
+  .promotion button {
+    width: 40vw;
+    height: 10vh;
+  }
+}
+@media (max-width: 375px) {
+  .shoe-img img {
+    margin: 10vh 0 0 0;
+    width: 80vw;
+    height: 70vh;
+    min-width: 50vw;
+  }
+  .promotion {
+    width: 90vw;
+  }
+  h1,
+  h2 {
+    font-size: 1.4rem;
+    line-height: 6vh;
+    margin: 0 0 6vh 0;
+  }
+  .promotion button {
+    width: 50vw;
+    height: 11.5vh;
+  }
+}
+@media (max-width: 320px) {
+  .cart,
+  .back {
+    width: 15vw;
+  }
+  .shoe-img img {
+    margin: 10vh 0 0 0;
+    width: 90vw;
+    height: 60vh;
+    min-width: 50vw;
+  }
+  .promotion {
+    width: 80vw;
+  }
+  h1,
+  h2 {
+    font-size: 1.3rem;
+    line-height: 6vh;
+    margin: 0 0 6vh 0;
+  }
+  .promotion button {
+    width: 70vw;
+    height: 10vh;
+    margin: 0;
+  }
+}

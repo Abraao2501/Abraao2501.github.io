@@ -5,3 +5,8 @@ const menuSection = document.querySelector(".menu-section");
 menuToggle.addEventListener("click", () => {
   menuSection.classList.toggle("on");
 });
+
+const comprar = document.querySelector('button')
+comprar.addEventListener('click' , () => {
+  window.location.assign("./pages/info.html")
+})
