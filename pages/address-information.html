@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2? family = Fraunces & display = swap"
+      rel="folha de estilo "
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/imgs/ricksPNG.png" />
+    <link rel="stylesheet" href="/css/address-information.css" />
+    <link
+      rel="stylesheet"
+      href="/css/media-query/media-query -address-information.css"
+    />
+
+    <title>Ricks | Informação de Endereço</title>
+  </head>
+  <body>
+    <aside>
+      <div class="back">
+        <img src="/imgs/arrow blue.png" onclick="history.back()" />
+      </div>
+    </aside>
+
+    <main class="container">
+      <form action="" id="rick-form">
+        <div class="personal-info">
+          <h2>Informações Pessoais</h2>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" maxlength="40" required autofocus />
+
+          <label for="cpf">CPF:</label>
+          <input type="number" id="cpf" inputmode="numeric" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" inputmode="numeric" required />
+
+          <p>Só mais um pouquinho, e sua compra estará finalizada ;)</p>
+        </div>
+        <div class="address-info">
+          <h2>Informações de Endereço</h2>
+          <label for="cep">CEP:</label>
+          <input type="number" id="cep" inputmode="numeric" required />
+
+          <label for="bairro">Bairro:</label>
+          <input type="text" id="bairo" required />
+
+          <label for="rua">Rua:</label>
+          <input type="text" id="rua" required />
+
+          <label for="numero">Número:</label>
+          <input type="number" id="numero" inputmode="numeric" required />
+
+          <button type="submit">Continuar</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
