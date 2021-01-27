@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2? family = Fraunces & display = swap"
+      rel="folha de estilo "
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/imgs/ricksPNG.png" />
+    <link rel="stylesheet" href="/css/payment.css" />
+    <link
+      rel="stylesheet"
+      href="/css/media-query/media query - payment.css"
+    />
+
+    <title>Ricks |  Pagamento</title>
+  </head>
+  <body>
+    <aside>
+      <div class="back">
+        <img src="/imgs/arrow blue.png" onclick="history.back()" />
+      </div>
+    </aside>
+
+    <main class="container">
+        <h2>Informações de Pagamento</h2>
+        <div class="credit-card">
+            <img src="/imgs/bi_credit-card-2-back.png">
+            <p>Cartão de Crédito</p>
+        </div>
+        <div class="inputs-credit-card">
+            <form action="">
+                <label for="data">Dados do Cartão:</label>
+                <input type="text" id="data">
+
+                <label for="name">Nome do Titular do Cartão:</label>
+                <input type="text" id="name">
+
+                <label for="number">Número do Cartão:</label>
+                <input type="number" id="number">
+
+                <label for="validate">Validade:</label>
+                <input type="number" id="validate">
+
+                <label for="y-m">(Mês/Ano)</label>
+                <input type="number" id="y-m">
+
+                 <label for="code">Código de Segurança:</label>
+                <input type="number" id="code">
+
+
+            </form>
+        </div>
+        <div class="bank-slip">
+            <img src="/imgs/ic_twotone-barcode.png">
+            <p>Boleto Bancário</p>
+        </div>
+    </main>    
+
+</body>
+</html>

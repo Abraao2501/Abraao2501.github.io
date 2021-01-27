@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50px;
+
+
+    color: #16009C; 
+
+    background: #ffffff;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+    position: fixed;
+    top: 0;
+    right: 0; 
+
+    height: 100%;
+    width: 7vw;
+    
+
+    background: #16009C;
+}
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+    width: 5vw;
+    height: 11.1vh;
+
+    margin: 20px 0 20px 0;
+
+    border-radius: 50%;
+    background: #ffffff;
+
+    cursor: pointer;
+}
+.back img {
+    width: 50%;
+    height: 50%;
+}
+
+.inputs-credit-card{
+    display: none;
+}
