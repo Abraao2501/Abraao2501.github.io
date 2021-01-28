@@ -49,6 +49,56 @@ aside {
     height: 50%;
 }
 
+main.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main.container h2 {
+    margin: 75px 0 75px 0;
+}
+.credit-card,
+.bank-slip {
+    width: 650px;
+    height: 100px;
+    background: #E1DEDE;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+    cursor: pointer;
+}
+.credit-card img,
+.bank-slip img {
+    width: 70px;
+    height: 70px;
+}
+.credit-card p,
+.bank-slip p {
+    margin-right: 150px;
+    color: #000000;
+}
+
 .inputs-credit-card{
     display: none;
+}
+button {
+    background: #16009C;
+    color: #FFFFFF;
+
+    font-family: Russo One;
+    font-size: 25px;
+    
+    width: 350px;
+    height: 50px;
+    
+    margin-top: 50px;
+    margin-left: 50px;
+
+    border: none;
+    border-radius: 12px;
+
+    cursor: pointer;
 }
