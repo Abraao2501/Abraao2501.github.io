@@ -6,3 +6,21 @@ Esse é o meu primeiro projeto do tipo e ainda está em andamento:grin::chart_wi
 
 Abaixo se seguirão as imagens de como o site está no momento:
 
+### HOMEPAGE
+<img src="https://github.com/Abraao2501/Abraao2501.github.io/blob/master/imgs/prints/home.PNG">
+
+### SAPATOS MASCULINOS
+<img src="https://github.com/Abraao2501/Abraao2501.github.io/blob/master/imgs/prints/mas.PNG">
+
+### SAPATOS FEMININOS
+<img src="https://github.com/Abraao2501/Abraao2501.github.io/blob/master/imgs/prints/fem.PNG">
+
+### INFORMÇÕES DO SAPATO
+<img src="https://github.com/Abraao2501/Abraao2501.github.io/blob/master/imgs/prints/inf.PNG">
+
+### INFORMAÇÕES DE ENDEREÇO
+<img src="https://github.com/Abraao2501/Abraao2501.github.io/blob/master/imgs/prints/adr.PNG">
+
+### INFORMAÇÕES DE PAGAMENTO
+<img src="https://github.com/Abraao2501/Abraao2501.github.io/blob/master/imgs/prints/pagamento.PNG">
+
