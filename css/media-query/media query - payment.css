@@ -1,0 +1,60 @@
+@media (max-width:1046px) {
+    aside {
+        display: none;
+    }
+    .credit-card,
+    .bank-slip {
+        width: 65%;
+    }
+    .credit-card p,
+    .bank-slip p {
+        margin: 0 10px 0 0;
+    }
+    button {
+        margin: 10vh 0 0 0;
+    }
+}
+@media (max-width:556px) {
+    .credit-card img,
+    .bank-slip img {
+    width: 60px;
+    height: 60px;
+    }
+    .credit-card,
+    .bank-slip {
+        width: 80%;
+    }
+    .credit-card p,
+    .bank-slip p {
+       font-size: 1.5rem;
+    }
+    main.container h2 {
+        margin: 50px 0 50px 0;
+        font-size: 1.8rem; 
+    }
+}
+@media (max-width:409px) {
+    .credit-card img,
+    .bank-slip img {
+    width: 50px;
+    height: 50px;
+}
+    .credit-card,
+    .bank-slip {
+        width: 90%;
+    }
+    .credit-card p,
+    .bank-slip p {
+       font-size: 1.3rem;
+       margin: 0;
+    }
+    main.container h2 {
+        margin: 50px 0 50px 0;
+        font-size: 1.7rem; 
+        text-align: center;
+    }
+    button {
+        width: 275px;
+        height: 50px;
+    }
+}

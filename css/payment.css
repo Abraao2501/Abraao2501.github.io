@@ -60,8 +60,8 @@ main.container h2 {
 }
 .credit-card,
 .bank-slip {
-    width: 650px;
-    height: 100px;
+    width: 45%;
+    height: 15vh;
     background: #E1DEDE;
 
     display: flex;

@@ -1,0 +1,95 @@
+@media (max-width: 1227px) {
+    aside {
+        display: none;
+    }
+    form#rick-form {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    .personal-info {
+        margin: 0;
+    }
+    .address-info {
+        margin: 0;
+    }
+    .address-info h2 {
+        margin-top: 60px;
+    }
+    p {
+        display: none;
+    }
+}
+@media (max-width:539px) {
+    label {
+        font-size: 15px;
+    }
+    input {
+        width: 400px;
+        height: 30px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .address-info h2 {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 482px) {
+    label {
+        width: 10%;
+        font-size: 20px;
+    }
+    input {
+        width: 350px;
+        height: 30px;
+    }
+    h2{
+        font-size: 25px;
+    } 
+    .address-info,
+    .personal-info {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button {
+        margin: 5vh;
+
+        font-size: 25px;
+        
+        width: 300px;
+        height: 40px;
+    }
+    
+}
+@media (max-width:376px) {
+    label {
+        width: 10%;
+        font-size: 18px;
+    }
+    input {
+        width: 80%;
+        height: 30px;
+    }
+    h2{
+        font-size: 22px;
+    } 
+    .address-info,
+    .personal-info {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button {
+        margin: 5vh;
+
+        font-size: 25px;
+        
+        width: 300px;
+        height: 40px;
+    }
+}
