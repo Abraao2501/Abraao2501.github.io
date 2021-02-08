@@ -79,7 +79,7 @@ section.header-cart img {
     height: 150x;
 }
 .products-container {
-    width: 90%;
+    width: 21.8em;
     height: 24vh;
     margin-bottom: 50px;
     background-color: #E1DEDE;
@@ -97,22 +97,34 @@ section.header-cart img {
    margin: 0;
    font-size: 22px;
    height: 1.5em;
+   color: black;
 }
-.products-container .product-text h3 {
+.shoe-name {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shoe-name img {
+    width: 20px;
+    height: 20px;
+}
+.products-container .product-text .shoe-name h3 {
     margin: 0px 0px 0px 0px;
     font-size: 22px;
     line-height: 1.5em;
     color: #2F0EF8;
-    width: 18em;
+    width: 17em;
 }
 hr {
     width: 100%;
 }
-.products-container img:last-child {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 0.2em;
-    right: 0.2em;
-
+.product-three {
+    display: flex;
+    align-items: center;
+}
+.product-three img {
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
 }
